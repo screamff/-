@@ -1,0 +1,33 @@
+/* header背景色 */
+header {
+    background: #333;
+}
+/* 右侧导航栏 */
+header nav {
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+header nav ul li{
+	display:inline;
+	/*display: inline-block;*/
+	margin-left:20px;
+}
+
+header a:hover {
+    color: #ddd;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    margin-left: 15px;
+}
+
+.active,.active a{
+	color: #939393;
+}
