@@ -1,3 +1,7 @@
+body {
+    background: #dedede;
+    margin: 0px;
+}
 /* header背景色 */
 header {
     background: #333;
@@ -7,6 +11,13 @@ header nav {
     float: right;
     margin-right: 20px;
     margin-top: 30px;
+}
+
+h2{
+	font-size:24px;
+}
+h3{
+	color:#939393; 
 }
 
 header nav ul li{
@@ -26,8 +37,121 @@ header a {
 
 header img {
     margin-left: 15px;
+    max-width: 200px;
 }
 
 .active,.active a{
 	color: #939393;
+}
+
+article {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+}
+
+article span {
+    color:#939393;
+    font-size: 14px;
+}
+
+figure img{
+	max-width: 160px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+figure div {
+    margin-bottom: 10px;;
+    text-align: center;
+    border:solid 1px #E3E3E3;
+    width: 200px;
+}
+
+article table{
+    min-width: 300px;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+article table td{
+    border:solid #999;
+    border-width: 0 1px 1px 0;
+}
+
+article table thead  {
+    color: #fff;
+	background-color: #000;
+    font-weight: bold;
+}
+
+aside h2{
+    border:solid 1px darkcyan;
+    border-width: 0 0 0 3px;
+    padding-left: 10px;
+}
+
+/* aside form div{
+    line-height:30px;
+} */
+
+.col-sm-4{
+    float: left;
+    width: 30%;
+}
+
+.text-right{
+    text-align: right;
+}
+.col-sm-8{
+    width: 70%;
+    float: left;
+}
+
+aside form div{
+    line-height: 30px;
+}
+aside form span{
+    margin-top: 10px;
+	font-size: 12px;
+}
+
+aside form{
+    width: 100%;
+}
+
+aside form textarea{
+	width: 60%
+}
+
+.inputSubmit{
+	background-color: #337ab7;
+	border-color: #2e6da4;
+    color: #fff;
+    padding: 4px;
+    margin-left: 30%;;
+}
+
+.inputSubmit:focus,.inputSubmit:hover{
+	background-color: #3390b7;
+}
+
+footer{
+    background: #000;
+	color: #fff;
+    min-height: 50px;
+	text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ddd;
+}
+
+footer p{
+    padding-top: 20px;
 }
