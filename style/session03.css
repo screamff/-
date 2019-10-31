@@ -1,0 +1,51 @@
+.mainui{
+    padding: 20px;
+    background-color: #eee;
+    min-width: 600px;
+    border: 1px solid #999;
+    margin:0 auto;
+    overflow: auto;
+}
+
+.left{
+    float: left;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #999;
+    width: 210px;
+}
+
+.right{
+    float: right;
+    background: #fff;
+    border: 1px solid #999;
+}
+
+img{
+    max-width: 100px;
+}
+
+.left-img{
+    float: left;
+}
+
+.left-text{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.member-logo{
+    max-width: 100px;
+    display: block;
+    border: 1px solid #999;
+    margin: 20px;
+}
+
+.middle{
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #999;
+    margin-left: 280px;
+    margin-right: 185px;
+}
