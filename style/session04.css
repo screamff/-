@@ -1,0 +1,28 @@
+.main{
+    position: fixed;
+    margin-top: -83px;
+    top: 50%;
+    margin-left: -117px;
+    left: 50%;
+    width: 234px;
+    height: 166px;
+    background: #ccc;
+}
+
+.top-left{
+    border-radius: 0 0 40px 0;
+    height: 40px;
+    width: 40px;
+    background: #fc0;
+
+}
+
+.bottom-right{
+    border-radius: 40px 0 0 0;
+    height: 40px;
+    width: 40px;
+    background: #fc0;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
