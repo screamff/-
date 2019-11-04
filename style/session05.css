@@ -1,0 +1,36 @@
+body{
+    background: #dedede;
+    font-family: "黑体";
+    font-size: 14px;
+}
+
+header{
+    background: #333;
+    height: 100px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+header img{
+    margin-left: 20px;
+}
+
+header nav{
+    display: block;
+}
+header nav ul{
+    float: right;
+}
+header nav ul li{
+	display:inline;
+	/*display: inline-block;*/
+	margin-left:20px;
+}
+
+li a:hover{
+    color: #ddd;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+}
