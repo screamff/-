@@ -2,6 +2,7 @@ body{
     background: #dedede;
     font-family: "黑体";
     font-size: 14px;
+    min-width: 750px;
 }
 
 header{
@@ -17,14 +18,13 @@ header img{
 
 header nav{
     display: block;
-}
-header nav ul{
     float: right;
 }
+
 header nav ul li{
-	display:inline;
-	/*display: inline-block;*/
-	margin-left:20px;
+    line-height: 70px;
+    float: left;
+    margin-right: 20px;
 }
 
 li a:hover{
@@ -33,4 +33,129 @@ li a:hover{
 li a{
     color: #fff;
     text-decoration: none;
+}
+
+aside{
+    float:right;
+    background: #ffffff;
+    margin: 30px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 2px 2px 2px #999;
+}
+
+aside h2{
+    border:solid 1px darkcyan;
+    border-width: 0 0 0 3px;
+    padding-left: 10px;
+}
+
+aside .col-sm-4{
+    float: left;
+    width: 35%;
+}
+
+aside .text-right{
+    text-align: right;
+}
+aside .col-sm-8{
+    width: 65%;
+    float: left;
+}
+
+aside form div{
+    line-height: 30px;
+}
+aside form span{
+    margin-top: 10px;
+	font-size: 12px;
+}
+
+aside form{
+    width: 100%;
+}
+
+aside form textarea{
+	width: 60%
+}
+
+aside .inputSubmit{
+	background-color: #337ab7;
+	border-color: #2e6da4;
+    color: #fff;
+    padding: 4px;
+    margin-left: 40%;
+    border-radius: 5px;
+}
+
+aside .inputSubmit:focus,aside .inputSubmit:hover{
+	background-color: #3390b7;
+}
+
+article {
+    margin: 20px 450px 20px 20px;
+    padding: 20px;
+    background: #fff;
+    line-height: 1.5;
+    box-shadow: 2px 2px 2px #848484;
+}
+
+article .text_indent{
+    text-indent: 2em;
+}
+
+
+article img{
+    max-width: 50%;
+}
+
+figure img{
+	max-width: 160px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+figure div {
+    margin-bottom: 10px;;
+    text-align: center;
+    border:solid 1px #E3E3E3;
+    width: 200px;
+}
+
+article table{
+    min-width: 300px;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+article table td{
+    border:solid #999;
+    border-width: 0 1px 1px 0;
+}
+
+article table thead  {
+    color: #fff;
+	background-color: #000;
+    font-weight: bold;
+}
+footer{
+    background: #000;
+	color: #fff;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ddd;
+}
+
+/* vertical-align: middle;需要设置line-height生效 */
+footer p{
+    line-height: 50px;
 }
