@@ -33,6 +33,7 @@ li a:hover{
 li a{
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
 }
 
 aside{
