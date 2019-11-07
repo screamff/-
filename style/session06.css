@@ -111,3 +111,262 @@ body{
     bottom: 0px;
     left: 85px;
 }
+
+.chapter{
+    width: 535px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.chapter p{
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+    font-family: "宋体";
+}
+
+.chapter01{
+    width: 235px;
+    float: left;
+}
+
+.what{
+    height: 28px;
+    font-size: 16px;
+    color: #418c59;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.chapter02{
+    width: 130px;
+    float: left;
+    margin-left: 20px;
+}
+.when {
+    height: 28px;
+    font-size: 16px;
+    color: #d2994f;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.chapter03{
+    width: 130px;
+    float: left;
+    margin-left: 20px;
+}
+.how {
+    height: 28px;
+    font-size: 16px;
+    color: #cc7680;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.chapter03 ul{
+    list-style: none;
+    font-size: 12px;
+    color: #231815;
+    line-height: 16px;
+    font-family: "微软雅黑";
+    margin-top: 30px;;
+}
+
+.bottom{
+    width: 900px;
+    height: 600px;
+    float: left;
+    margin: 30px 40px;
+}
+.left{
+    float: left;
+    width: 415px;
+}
+.left_up{
+    width: 250px;
+    border-bottom: 2px solid #11456b;
+}
+
+.left_up p {
+    font-size: 42px;
+    line-height: 50px;
+    font-family: "黑体";
+    color: #11456b;
+    font-weight: bold;
+}
+
+.left_up .the {
+    font-size: 72px;
+    color: #f5e327;
+    font-family: "黑体";
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.left_bottom{
+    float: left;
+    width: 415px;
+    margin-top: 40px;
+    position: relative;
+}
+.left_bottom p::first-letter{
+    font-size: 72px;
+    color: #f5e327;
+    font-family: "黑体";
+    font-weight: bold;
+    float: left;
+    line-height: 72px;
+}
+.left_bottom p {
+    font-size: 12px;
+    color: #767777;
+    font-family: "宋体";
+    line-height: 16px;
+    text-indent: 0em;
+    clear: both;
+}
+
+.pic_2 {
+    float: right;
+    margin: 12px 0px 12px 0px;
+}
+
+.right {
+    float: right;
+    width: 400px;
+    height: 637px;
+}
+
+.rim {
+    width: 369px;
+    height: 275px;
+    position: relative;
+}
+
+.rim_text {
+    width: 369px;
+    height: 42px;
+    background: #000;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 40px;
+}
+.rim_text p {
+    color: #fff;
+    font-size: 26px;
+    font-family: "微软雅黑";
+    margin-left: 15px;
+    line-height: 30px;
+    border-left: 3px solid #72b16a;
+    height: 30px;
+    margin-top: 5px;
+    text-indent: 0.5em;
+}
+.rim_text p span {
+    font-size: 12px;
+    color: #72b16a;
+    font-family: "微软雅黑";
+    font-style: oblique;
+    line-height: 140%;
+    margin-left: 5px;
+}
+.r_text {
+    width: 400px;
+    height: 318px;
+    background: #eeeed6;
+    margin-top: 18px;
+    position: relative;
+}
+.r_text_1 ul li {
+    font-size: 16px;
+    color: #5a5b5b;
+    font-family: "宋体";
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 10px;
+    list-style: none;
+}
+.r_text_2 {
+    width: 200px;
+    height: 150px;
+    background: #d55d5c;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #fff;
+}
+
+.zero {
+    float: left;
+    font-size: 90px;
+    color: #fff;
+    font-family: "微软雅黑";
+    border-right: 2px solid #fff;
+    height: 86px;
+    line-height: 86px;
+    margin: 37px 10px;
+}
+.nums {
+    margin-top: 37px;
+    font-size: 21px;
+    font-family: "黑体";
+    font-style: oblique;
+    line-height: 24px;
+}
+.hello {
+    font-size: 12px;
+    font-family: "黑体";
+    line-height: 10px;
+}
+
+.r_text_3 {
+    font-size: 14px;
+    color: #5a5b5b;
+    font-family: "黑体";
+    font-style: oblique;
+    line-height: 16px;
+    text-indent: 3em;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 178px;
+    height: 140px;
+    margin-right: 10px;
+}
+.r_text_3 span {
+    font-size: 72px;
+    color: #d45d5c;
+    font-family: "黑体";
+    line-height: 30px;
+}
+.pu_left {
+    position: absolute;
+    bottom: 100px;
+    right: 150px;
+    font-style: normal;
+}
+.pu_right {
+    position: absolute;
+    bottom: 45px;
+    right: 0px;
+    font-style: normal;
+}
+footer {
+    clear: both;
+    margin: 0 auto;
+    width: 892px;
+    height: 59px;
+    border-top: 1px solid #938e8c;
+}
+footer p {
+    float: right;
+    font: 12px "黑体";
+    color: #d45d5c;
+}
