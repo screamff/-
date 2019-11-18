@@ -55,7 +55,7 @@ header nav ul{
 }
 
 header nav ul li{
-    display: inline-block;
+    /* display: inline-block; */
     width: 20%;
     font-size: 14px;
     text-align: center;
@@ -171,7 +171,7 @@ header nav ul li:nth-child(5):hover~.move{
 
 .section-2 .cell{
     width: 25%;
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
     position: relative;
 }
